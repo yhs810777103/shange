@@ -1,0 +1,115 @@
+.left{
+     padding: 0;
+    .logo{
+        width: 100%;
+        background-color: blue;
+        a{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    ul{
+        background-color: #ccc;
+        li{
+            height: 50px;
+            line-height: 50px;
+            padding-left: 30px;  
+        }
+        li:hover{
+            background-color: orange;
+        }
+    }
+}
+.middle{
+    .img{
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid #ccc;
+        a{
+            display: block;
+            float: left;
+            width: 25%;
+            height: 128px;
+            position: relative;
+            border-left: 10px solid white;
+            border-bottom: 10px solid white;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            span{
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                padding-left: 20px; 
+                background-color: rgba(0,0,0,0.5);
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                color: white;
+            }
+        }
+        a:first-child{
+            width: 50%;
+            height: 256px;
+            border-left:0;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .news{
+        overflow: hidden;
+        font-size: 12px;
+        border-bottom: 1px solid #ccc;
+        padding: 0;
+        .n1{
+            padding: 0;
+        }
+        .i1{
+            padding: 0;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.right{
+    padding: 0;
+    .top_img{
+        width: 100%;
+        margin-bottom: 15px;
+        a{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .wenzi{
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+}
+
+
+
+@media only screen and(max-width:768px){
+    .left{
+        ul{
+            padding: 0;
+            overflow: hidden;
+            background-color: #ccc;
+            li{
+                padding: 0;
+                float: left;
+                width: 20%;
+                text-align: center;
+            }
+        }
+    }
+}
